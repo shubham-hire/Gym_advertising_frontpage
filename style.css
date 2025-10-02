@@ -1,0 +1,127 @@
+body {
+    /* height: 1000px; */
+    margin: 0;
+    padding: 0;
+    font-family: "Baloo Paaji 2", serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('gym.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    line-height: 16px;
+    font-size: 17px;
+    left: 49px;
+    top: 20px;
+    border: 2px solid transparent;
+}
+
+.mid {
+    display: block;
+    color: black;
+    width: 35%;
+    margin: 17px auto;
+    border: 2px solid transparent;
+    z-index: 0;
+    /* opacity: 0.7; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    border: 2px solid transparent;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    font-size: 19px;
+    color: white;
+    display: inline-block;
+}
+
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 34px;
+}
+
+.navbar li a:hover{
+    color: black;
+}
+
+.navbar li:hover,
+.navbar li:active {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    /* text-decoration: dotted; */
+}
+
+.left img {
+    padding-left: 22px;
+    text-align: center;
+    width: 45px;
+    filter: invert(100%)
+}
+
+.btn {
+    border-color: white;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Baloo Paaji 2", serif;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(43, 49, 47);
+}
+
+.container {
+    text-align: center;
+    border: 2px solid white;
+    margin: 75px 586px;
+    padding: 87px 3px;
+    width: 33%;
+    height: 20%;
+    border-radius: 15px;
+}
+
+.form-group input {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    width: 232px;
+    margin: 9px auto;
+    padding: 9px 25px;
+    border: 2px solid black;
+}
+
+.container button {
+    margin: 15px 2px;
+}
+
+.container h1 {
+    /* padding: 15px 2px; */
+    padding-bottom: 10px;
+    font-size: 50px;
+}
